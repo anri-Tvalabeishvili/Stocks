@@ -18,8 +18,8 @@ body {
     height: 100vh;
     color: var(--txt_color);
     font-size: 14px;
-    width: 2500px;
-    min-width: 2500px;
+    width: 1500px;
+    min-width: 1500px;
 }
 
 .navigation{
