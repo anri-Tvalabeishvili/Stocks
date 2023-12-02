@@ -1,6 +1,6 @@
 :root {
-    /*--bg-color: rgb(14, 16, 21); !* Define a variable for the primary color *!*/
-    --bg-color: rgb(51, 150, 18); /* Define a variable for the primary color */
+    --bg-color: rgb(14, 16, 21); /* Define a variable for the primary color */
+    /*--bg-color: rgb(51, 150, 18); !* Define a variable for the primary color *!*/
     --nav_bg_hover: rgb(25, 28, 37);   /* Define a variable for the hover color */
     --nav_txt_hover: #E48F45;
     --txt_color: rgb(217, 214, 214);
@@ -19,7 +19,7 @@ body {
     color: var(--txt_color);
     font-size: 14px;
     /*width: 1000px;*/
-    min-width: 2000px;
+    min-width: 1080px;
 }
 
 
