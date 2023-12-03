@@ -35,12 +35,25 @@ body {
   overflow: hidden;
   background-color: var(--bg-color);
   font-size: 16px;
-  min-width: 1500px;
-  font-weight: 500;
+  min-width: 1800px;
+  /*width: 1500px;*/
+  /*font-weight: 500;*/
 
   display: flex;
+  /*display: inline;*/
+  /*margin-left: 27%;*/
   justify-content: center;
   align-items: center;
+  justify-items: center;
+  justify-self: center;
+  align-content: center;
+  align-self: center;
+
+}
+
+section{
+  width: 1800px;
+  font-weight: 500;
 }
 
 
@@ -56,19 +69,26 @@ header {
   /*position: absolute;*/
   /*top: 0px;*/
   background-color: var(--bg-color);
+  /*background-color: antiquewhite;*/
   width: 100%;
   z-index: 1000;
-  margin-left: -350px;
-
+  /*margin-left: -350px;*/
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  /*justify-items: center;*/
+  /*justify-self: center;*/
+  /*align-content: center;*/
+  /*align-self: center;*/
 }
 
 
 
 .container {
-  max-width: 65rem;
-  padding: 0 2rem;
+  /*max-width: 65rem;*/
+  padding: 0 0rem;
   margin: 0 auto;
-  display: flex;
+  /*display: flex;*/
   /*position: absolute;*/
   margin-top: 8px;
   /*margin-left: 500px;*/
@@ -208,3 +228,55 @@ header {
   opacity: 1;
   pointer-events: auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main_box{
+  position:static;
+  margin-top: 80px;
+}
+
+
+.currency1{
+  background-color: var(--nav_bg_hover);
+  margin-left: 100px;
+  border-radius: 2vh;
+  width: 315px;
+  height: 200px;
+}
+
+
+
+.currency2{
+  margin-top: 25px;
+  background-color: var(--nav_bg_hover);
+  /*margin-left: 110px;*/
+  border-radius: 2vh;
+  width: 315px;
+  height: 200px;
+}
+
+ .currency3{
+  margin-top: 50px;
+  background-color: var(--nav_bg_hover);
+  /*margin-left: 110px;*/
+  border-radius: 2vh;
+  width: 315px;
+  height: 200px;
+}
+
+
+
+
+
+
