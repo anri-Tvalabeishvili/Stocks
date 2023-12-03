@@ -32,7 +32,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  overflow: hidden;
+  /*overflow: hidden;*/
   background-color: var(--bg-color);
   font-size: 16px;
   min-width: 1800px;
@@ -48,7 +48,6 @@ body {
   justify-self: center;
   align-content: center;
   align-self: center;
-
 }
 
 section{
@@ -247,50 +246,69 @@ header {
 }
 
 
-.currency1{
-  background-color: var(--nav_bg_hover);
-  margin-left: 100px;
-  border-radius: 2vh;
-  width: 315px;
-  height: 200px;
-}
-
-
-
-.currency2{
-  margin-top: 25px;
-  background-color: var(--nav_bg_hover);
-  /*margin-left: 110px;*/
-  border-radius: 2vh;
-  width: 315px;
-  height: 200px;
-}
-
- .currency3{
+.currency1, .currency2 ,.currency3{
   margin-top: 50px;
   background-color: var(--nav_bg_hover);
-  /*margin-left: 110px;*/
+  margin-left: 235px;
   border-radius: 2vh;
   width: 315px;
   height: 200px;
 }
+
 
 
 
  .summery_home_outside {
-  margin-top: -200px;
-  margin-left: 490px;
+  margin-top: -700px;
+  margin-left: 620px;  /* +70  */
   border-radius: 2vh;
 }
 
 .summery_home_inside{
-  /*margin-top: -200px;*/
-  /*margin-left: 510px;*/
   background-color: var(--nav_bg_hover);
   width: 400px;
   height: 700px;
   border-radius: 2vh;
 }
 
+.news_fs_outside{
+  margin-top: -700px;
+  margin-left: 1090px;
+  border-radius: 2vh;
+}
 
+.news_fs_inside{
+  background-color: var(--nav_bg_hover);
+  width: 480px;
+  height: 700px;
+  border-radius: 2vh;
+}
+
+
+
+
+.matrix_outside{
+  margin-top: 60px;
+  margin-left: 235px;
+  border-radius: 2vh;
+}
+
+.matrix_inside{
+  width: 1336px;
+  height: 900px;
+}
+
+
+.valuation_outside{
+  margin-top: 60px;
+  margin-left: 235px;
+  border-radius: 2vh;
+}
+
+.valuation_inside{
+  width: 1336px;
+  height: 750px;
+  background-color: var(--nav_bg_hover);
+  border-radius: 2vh;
+}
 
