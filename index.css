@@ -37,6 +37,10 @@ body {
   font-size: 16px;
   min-width: 1500px;
   font-weight: 500;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -49,11 +53,13 @@ a {
 }
 
 header {
-  position: sticky;
+  /*position: absolute;*/
   /*top: 0px;*/
   background-color: var(--bg-color);
   width: 100%;
   z-index: 1000;
+  margin-left: -350px;
+
 }
 
 
@@ -63,8 +69,10 @@ header {
   padding: 0 2rem;
   margin: 0 auto;
   display: flex;
-  position: relative;
+  /*position: absolute;*/
   margin-top: 8px;
+  /*margin-left: 500px;*/
+
 }
 
 
@@ -103,8 +111,7 @@ header {
 }
 
 .nav-link > a > i {
-  margin-left: .2rem;
-
+  margin-left: .4rem;
 }
 
 .nav-link:hover > a {
@@ -125,7 +132,7 @@ header {
 .dropdown {
   position: absolute;
   top: 100%;
-  left: 0;
+  left: 0.5rem;
   width: 10rem;
   transform: translateY(10px);
   opacity: 0;
