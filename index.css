@@ -277,6 +277,20 @@ header {
 
 
 
+ .summery_home_outside {
+  margin-top: -200px;
+  margin-left: 490px;
+  border-radius: 2vh;
+}
+
+.summery_home_inside{
+  /*margin-top: -200px;*/
+  /*margin-left: 510px;*/
+  background-color: var(--nav_bg_hover);
+  width: 400px;
+  height: 700px;
+  border-radius: 2vh;
+}
 
 
 
