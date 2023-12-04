@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Change Navbar Hrefs and Names</title>
+</head>
+<body>
+
+<nav>
+  <ul id="navbar">
+    <li><a href="page1.html">Page 1</a></li>
+    <li><a href="page2.html">Page 2</a></li>
+    <!-- Additional li elements will be added automatically -->
+  </ul>
+</nav>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Change Navbar Hrefs and Names</title>
+</head>
+<body>
+
+<nav>
+  <ul id="navbar">
+    <li><a href="page1.html">Page 1</a></li>
+    <li><a href="page2.html">Page 2</a></li>
+    <!-- Additional li elements will be added automatically -->
+  </ul>
+</nav>
+
+<script>
+  function updateNavbar(newData, targetElement) {
+    // Get the existing navbar links
+    var existingLinks = targetElement.getElementsByTagName('a');
+
+    // Update href attributes and text content using the dictionary values
+    Object.keys(newData).forEach(function (key, index) {
+      var link;
+      if (index < existingLinks.length) {
+        // Use existing link
+        link = existingLinks[index];
+      } else {
+        // Create a new li and a element
+        var li = document.createElement('li');
+        link = document.createElement('a');
+        li.appendChild(link);
+        targetElement.appendChild(li);
+      }
+
+      // Update href and text content
+      link.href = key;
+      link.textContent = newData[key];
+    });
+  }
+
+  // Example usage
+  var newDataExample = {
+    "page1.html": "Custom Name 1",
+    "page2.html": "Custom Name 2",
+    "page3.html": "Custom Name 3",
+    "page4.html": "Custom Name 4" // Example of an additional item
+  };
+
+  var navbarElement = document.getElementById('navbar');
+  updateNavbar(newDataExample, navbarElement);
+</script>
+
+</body>
+</html>
+
+
+</body>
+</html>
